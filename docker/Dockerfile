@@ -35,5 +35,5 @@ RUN composer install
 
 RUN php artisan key:generate
 
-RUN chown -R www-data:www-data /var/www
-RUN chmod -R 755 /var/www
+##RUN chown -R www-data:www-data /var/www
+#RUN chmod -R 755 /var/www
